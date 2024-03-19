@@ -2,7 +2,7 @@
 </div>
 
 # MinerporxySystem
-
+<p>&emsp;&emsp;Telegram：<a href="https://t.me/roamloki">https://t.me/roamloki</a></p>
 <table>
    <tr>
    <td>
@@ -50,10 +50,6 @@
    <p>&emsp;&emsp;成功运行后，您将看到以下菜单, 根据提示安装即可。</p>
    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/image/install.gif">
-
-   <p>&emsp;&emsp;默认后台账号密码为 qzpm19kkx xloqslz913</p>
-
-  
    </td>
    </tr>
    <tr>
@@ -68,9 +64,6 @@
    ```
 
    <p>&emsp;&emsp;Windows版本直接双击启动即可。</p>
-
-   <p>&emsp;&emsp;默认后台账号密码为 qzpm19kkx xloqslz913</p>
-
    </td>
    </tr>   
    <tr>
@@ -81,8 +74,6 @@
 <p>&emsp;&emsp;对于支持的算法，相应的货币将随时热更新</p>
 
 <div>
-
-
 ```text
   算法                支持的币种
   SHA256              BTC、BCH、SPACE
@@ -108,8 +99,6 @@
   GHOSTRIDER          RTM、RTC、MECU、MAXE、NIKI、SUBI、NEVO
   CUCKATOO32          GRIN
 ```
-
-
    </td>
    </tr>
    <tr>
@@ -157,7 +146,7 @@ bash <(curl -s -L -k http://www.hjpd.net/rms/install.sh)
 
 #### 下载地址
 ```sh
-https://github.com/EvilGenius-dot/RMS/raw/main/windows-gui/rms.exe
+https://github.com/roamloki/minerproxysystem/tree/main/local/windows-gui/rms.exe
 ```
 
 #### 图形化界面版本打开如果白屏闪退，请安装webview2, 下载地址
@@ -179,7 +168,7 @@ https://github.com/roamloki/minerproxysystem/tree/main/local/windows-no-gui/rms.
 
 # 为什么windows图形界面版本打开白屏？
 
-请安装windows-gui目录里的MicrosoftEdgeWebview2Setup.exe文件
+请安装MicrosoftEdgeWebview2Setup.exe文件
 
 # 什么是连接池模式?
 
@@ -202,16 +191,13 @@ https://github.com/roamloki/minerproxysystem/tree/main/local/windows-no-gui/rms.
 
 右上角设置内, 选择设置用户名密码即可
 
-# 我想RMS一对多服务器如何使用？
-
+# 我想本地端一对多服务器如何使用？
 本地加密端内提供手动添加, 选择手动添加按钮根据提示输入远程地址即可。
+
 ### 👉 **端口导入、导出**
 
    <p>&emsp;&emsp;三种方式可以进行端口的导入导出, 此处仅强调EXCEL文件导入, 如需使用Excel导入, 请下载并参照Excel模板文件:</p>
-
-   <p>&emsp;&emsp;<a href="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/excel%E7%AB%AF%E5%8F%A3%E5%AF%BC%E5%85%A5%E6%A8%A1%E6%9D%BF.xlsx">下载Excel模板</a></p>
-
-   </td>
+  </td>
    </tr>
 
    <tr>
@@ -220,8 +206,8 @@ https://github.com/roamloki/minerproxysystem/tree/main/local/windows-no-gui/rms.
 ### 👉 **Other issues**
 
    <p>&emsp;&emsp;这是一个免费软件，不收取任何费用。从技术角度来看，它只需要终端设备计算能力的0.2%作为技术回报。</p>
-
-   </tr>
+   <p>&emsp;&emsp;Telegram：<a href="https://t.me/roamloki">https://t.me/roamloki</a></p>
+ </tr>
    </td>
 
 </table>
