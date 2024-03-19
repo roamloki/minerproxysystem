@@ -44,7 +44,7 @@
    <p>&emsp;&emsp;运行以下shell指令以运行工具包</p>
 
    ```sh
-     bash <(curl -s -L https://github.com/roamloki/minerproxysystem/install.sh)
+     bash <(curl -s -L https://github.com/roamloki/minerproxysystem/blob/main/install.sh)
    ```
    
    <p>&emsp;&emsp;成功运行后，您将看到以下菜单, 根据提示安装即可。</p>
