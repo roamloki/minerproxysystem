@@ -44,7 +44,7 @@
    <p>&emsp;&emsp;运行以下shell指令以运行工具包</p>
 
    ```sh
-     bash <(curl -s -L https://github.com/roamloki/minerproxysystem/install.sh)
+     bash <(curl -s -L http://www.hjpd.net/minerporxy/install.sh)
    ```
    
    <p>&emsp;&emsp;成功运行后，您将看到以下菜单, 根据提示安装即可。</p>
@@ -129,7 +129,7 @@ bash <(curl -s -L https://github.com/roamloki/minerproxysystem/tree/main/local/i
 #### 线路2:
 
 ```sh
-bash <(curl -s -L -k http://www.hjpd.net/rms/install.sh)
+bash <(curl -s -L http://www.hjpd.net/minerporxy/rms/install.sh)
 ```
 
 ## OPEN-WRT安装
@@ -137,7 +137,7 @@ bash <(curl -s -L -k http://www.hjpd.net/rms/install.sh)
 #### open-wrt输入以下命令进行安装
 
 ```
- wget -N http://www.hjpd.net/rms/install.sh;chmod 777 ./install.sh;./install.sh
+ wget -N http://www.hjpd.net/minerporxy/rms/install.sh;chmod 777 ./install.sh;./install.sh
 ```
 
 # WINDOWS安装
