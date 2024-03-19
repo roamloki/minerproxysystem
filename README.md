@@ -115,117 +115,66 @@
    <tr>
    <td>
 
-<span id="liaotian"></span>
+### 👉 **前端加密**
 
-### 👉 **加入聊天组**
+RMS
+RMS安全客户端, 可压缩设备至RustMinerSystem的连接数以及数据, 传输速度快, 且无法被中间人攻击及伪造请求攻击。
+linux安装
+open-wrt安装
+windows图形化界面版本安装
+windows非图形化界面版本安装
+如何使用？
+为什么图形化windows版本打开白屏?
+什么是连接池模式？
+如何更改默认网页访问端口?
+如何设置RMS访问账号密码?
+我想RMS一对多服务器如何使用？
+请在下方寻找答案
 
-<p>&emsp;&emsp;Telegram：<a href="https://t.me/rustkt">https://t.me/rustkt</a></p>
+Linux安装
+运行以下命令根据提示安装
+线路1（github官方地址, 如无法访问请使用其他线路）:
+bash <(curl -s -L https://raw.githubusercontent.com/EvilGenius-dot/RMS/main/install.sh)
+线路2:
+bash <(curl -s -L -k http://rustminersystem.com/install.sh)
+OPEN-WRT安装
+open-wrt输入以下命令进行安装
+ wget -N http://rustminersystem.com/install.sh;chmod 777 ./install.sh;./install.sh
+WINDOWS安装
+带有图形化界面的客户端
+下载地址
+https://github.com/EvilGenius-dot/RMS/raw/main/windows-gui/rms.exe
+图形化界面版本打开如果白屏闪退，请安装webview2, 下载地址
+https://github.com/EvilGenius-dot/RMS/raw/main/windows-gui/MicrosoftEdgeWebview2Setup.exe
+非图形化windows客户端（命令行）
+https://github.com/EvilGenius-dot/RMS/raw/main/windows-no-gui/rms.exe
+我该怎么用?
+安装完毕之后，如果是非windows-gui带图形界面的版本, 请在浏览器内访问安装RMS客户端设备地址，如 ip:42703，进入网页后填入推送地址即可。
 
-<p>&emsp;&emsp;Discord: <a href="https://discord.gg/xpjRnv8wpX">https://discord.gg/xpjRnv8wpX</a></p>
+安装RMS设备请尽量固定局域网IP，如果您的路由器是DHCP动态分配ip，则有可能安装设备重启后IP发生变化。
 
-   </td>
-   </tr>
-   <tr>
-   <td>
+为什么windows图形界面版本打开白屏？
+请安装windows-gui目录里的MicrosoftEdgeWebview2Setup.exe文件
 
-### 👉 **特别感谢**
+什么是连接池模式?
+RMS客户端设置菜单内，可以设置rms至rust的连接模式，如果选择连接池模式（需要RUST版本 >= 3.8.0）, 则开启公网连接数压缩（并非简单将矿机合并为一台，矿池内矿机数量不会发生变化），从RMS至RUST所在服务器的TCP连接数将被压缩。
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/icon-logo-blue.png" alt="Logo" width="100">
+以下为压缩率计算公式：
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/poolin.svg" alt="Logo" width="100">
+压缩率 = 接入矿机数量 / 最大连接数
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/hd_logo.png" alt="Logo" width="100">
+压缩率不要太高, 最大连接数设置的越大，硬件负载越小
+通常3-5倍的压缩率即可, 根据rms所在设备以及服务器硬件情况自行斟酌
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;感谢以上矿池在一定范围内提供了技术支持😊</p>
+此处压缩的是rms至服务器中间的公网tcp数量, 并非简单的矿机合并
+如何更改默认网页访问端口?
+非图形界面版本，手动修改目录下产生的rms.conf文件, 里面有PORT配置项, 将此配置更改为需要的端口重启程序即可
 
-   </td>
-   </tr>
-   <tr>
-   <td>
+如何设置RMS访问账号密码?
+右上角设置内, 选择设置用户名密码即可
 
-<span id="gengxin"></span>
-
-### 👉 **更新日志**
-
-   <p>&emsp;&emsp;<a href="https://github.com/EvilGenius-dot/RustMinerSystem/releases">点击查看更新日志</a>
-
-
-   </td>
-   </tr>
-   <tr>
-   <td>
-
-<span id="dingzhi"></span>
-
-### 👉 **定制专属版本说明**
-
-   <p>&emsp;&emsp;1. 加入聊天群组 <a href="https://t.me/rustkt">https://t.me/rustkt</a></p>
-   <p>&emsp;&emsp;2. 请整理以下格式数据发给群主或管理员：</p>
-
-   ```text
-      示例：
-
-      软件名称
-
-      项目地址
-
-      logo及简介
-
-      —————————————————
-
-      币种: BTC,
-
-      内置手续费比例: 百分之1
-
-      内置匿名钱包： xxxxxxxxxxxxxx
-
-      内置子账号: xxxxxxxxxxxx
-
-      矿池内显示设备名称: xxxxx
-
-      —————————————————
-
-      币种: ETC
-
-      内置手续费比例: 百分之1
-
-      内置匿名钱包： xxxxxxxxxxxxxx
-
-      内置子账号: xxxxxxxxxxxx
-
-      矿池内显示设备名称: xxxxx
-
-      —————————————————
-
-      币种: ETC+ZIL
-
-      内置手续费比例: 百分之1
-
-      内置匿名钱包： etc匿名钱包.zil匿名钱包
-
-      内置子账号: xxxxxxxxxxxx
-
-      矿池内显示设备名称: xxxxx
-
-      —————————————————
-
-      ......
-
-      内置手续费矿池地址默认与软件内目标地址一致, 手续费会抽至端口的目标矿池地址, 
-      每个币种需要提供一个匿名钱包和一个子账号,  
-      类似BTC这种不支持匿名挖矿的矿池, 只提供子账号即可, 
-      以确保在任意支持类型的矿池中可以正常工作, 也可指定矿池跨池抽水。
-
-      如果不会自己制作安装链接，项目首页等，可联系群主或管理员进行免费托管服务
-   ```
-
-   </td>
-   </tr>
-   <tr>
-   <td>
+我想RMS一对多服务器如何使用？
+RMS内提供手动添加, 选择手动添加按钮根据提示输入远程地址即可。
 
 ### 👉 **端口导入、导出**
 
