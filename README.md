@@ -162,20 +162,20 @@ https://github.com/EvilGenius-dot/RMS/raw/main/windows-gui/rms.exe
 
 #### 图形化界面版本打开如果白屏闪退，请安装webview2, 下载地址
 ```sh
-https://github.com/EvilGenius-dot/RMS/raw/main/windows-gui/MicrosoftEdgeWebview2Setup.exe
+https://github.com/roamloki/minerproxysystem/tree/main/local/windows-gui/MicrosoftEdgeWebview2Setup.exe
 ```
 
 ## 非图形化windows客户端（命令行）
 
 ```sh
-https://github.com/EvilGenius-dot/RMS/raw/main/windows-no-gui/rms.exe
+https://github.com/roamloki/minerproxysystem/tree/main/local/windows-no-gui/rms.exe
 ```
 
 # 我该怎么用?
 
-安装完毕之后，如果是非windows-gui带图形界面的版本, 请在浏览器内访问安装RMS客户端设备地址，如 ip:42703，进入网页后填入推送地址即可。
+安装完毕之后，如果是非windows-gui带图形界面的版本, 请在浏览器内访问安装的客户端设备地址，如 ip:42703，进入网页后填入推送地址即可。
 
-安装RMS设备请尽量固定局域网IP，如果您的路由器是DHCP动态分配ip，则有可能安装设备重启后IP发生变化。
+安装本地加密设备请尽量固定局域网IP，如果您的路由器是DHCP动态分配ip，则有可能安装设备重启后IP发生变化。
 
 # 为什么windows图形界面版本打开白屏？
 
@@ -183,7 +183,7 @@ https://github.com/EvilGenius-dot/RMS/raw/main/windows-no-gui/rms.exe
 
 # 什么是连接池模式?
 
-RMS客户端设置菜单内，可以设置rms至rust的连接模式，如果选择连接池模式（需要RUST版本 >= 3.8.0）, 则开启公网连接数压缩（并非简单将矿机合并为一台，矿池内矿机数量不会发生变化），从RMS至RUST所在服务器的TCP连接数将被压缩。
+本地加密客户端设置菜单内，可以设置本地端至服务器服务端的连接模式，如果选择连接池模式, 则开启公网连接数压缩（并非简单将矿机合并为一台，矿池内矿机数量不会发生变化），从本地端至所在中转服务器的TCP连接数将被压缩。
 
 以下为压缩率计算公式：
    
@@ -196,7 +196,7 @@ RMS客户端设置菜单内，可以设置rms至rust的连接模式，如果选�
 
 # 如何更改默认网页访问端口?
 
-非图形界面版本，手动修改目录下产生的rms.conf文件, 里面有PORT配置项, 将此配置更改为需要的端口重启程序即可
+非图形界面版本，手动修改目录下产生的.conf文件, 里面有PORT配置项, 将此配置更改为需要的端口重启程序即可
 
 # 如何设置RMS访问账号密码?
 
@@ -204,7 +204,7 @@ RMS客户端设置菜单内，可以设置rms至rust的连接模式，如果选�
 
 # 我想RMS一对多服务器如何使用？
 
-RMS内提供手动添加, 选择手动添加按钮根据提示输入远程地址即可。
+本地加密端内提供手动添加, 选择手动添加按钮根据提示输入远程地址即可。
 ### 👉 **端口导入、导出**
 
    <p>&emsp;&emsp;三种方式可以进行端口的导入导出, 此处仅强调EXCEL文件导入, 如需使用Excel导入, 请下载并参照Excel模板文件:</p>
@@ -229,10 +229,4 @@ RMS内提供手动添加, 选择手动添加按钮根据提示输入远程地址
 
 
 
-[rustminersystem.io]: https://github.com/EvilGenius-dot/RustMinerSystem
-[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v3.9.7-green?logo=rust
-[downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
-[releases]: https://github.com/EvilGenius-dot/RustMinerSystem/releases
-[stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
-[stars-shield]: https://img.shields.io/github/stars/EvilGenius-dot/RustMinerSystem.svg?style=flat
-[stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
+
