@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION="3.9.8"
-DOWNLOAD_HOST="https://github.com/roamloki/minerproxysystem/tree/main/linux"
+DOWNLOAD_HOST="https://github.com/roamloki/minerproxysystem/linux"
 ORIGIN_EXEC="minersys-${VERSION}"
 
 SERVICE_NAME="minersysservice"
