@@ -1,15 +1,4 @@
 
-
-<br>
-<br>
-
-<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-EN">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem">简体中文</a> | <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-RU">Русский язык</a>
-
-
-
-
-
-
 </div>
 
 # MinerporxySystem
@@ -55,7 +44,7 @@
    <p>&emsp;&emsp;运行以下shell指令以运行工具包</p>
 
    ```sh
-     bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
+     bash <(curl -s -L https://github.com/roamloki/minerproxysystem/install.sh)
    ```
    
    <p>&emsp;&emsp;成功运行后，您将看到以下菜单, 根据提示安装即可。</p>
@@ -64,20 +53,7 @@
 
    <p>&emsp;&emsp;默认后台账号密码为 qzpm19kkx xloqslz913</p>
 
-   <p>&emsp;&emsp;ARM版本请使用以下命令进行安装</p>
-   
-   &emsp;&emsp;ARM:
-
-   ```sh
-     bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/arm-install.sh)
-   ```
-
-   &emsp;&emsp;ARMV7:
-
-   ```sh
-     bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/armv7-install.sh)
-   ```
-
+  
    </td>
    </tr>
    <tr>
@@ -88,7 +64,7 @@
    <p>&emsp;&emsp;请直接从此项目的Windows目录下载指定的版本：</p>
 
    ```sh
-     https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/windows
+     https://github.com/roamloki/minerproxysystem/tree/main/windows
    ```
 
    <p>&emsp;&emsp;Windows版本直接双击启动即可。</p>
@@ -105,36 +81,7 @@
 <p>&emsp;&emsp;对于支持的算法，相应的货币将随时热更新</p>
 
 <div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/icon-btc.png" alt="Logo" width="25">
-<img src="/image/icon-bch.png" alt="Logo" width="25">
-<img src="/image/icon-etc.png" alt="Logo" width="25">
-<img src="/image/icon-ethw.png" alt="Logo" width="25">
-<img src="/image/icon-ethf.png" alt="Logo" width="25">
-<img src="/image/icon-octa.png" alt="Logo" width="25">
-<img src="/image/icon-etc+zil.png" alt="Logo" height="25">
-<img src="/image/icon-ethw+zil.png" alt="Logo" height="25">
-<img src="/image/icon-ethf+zil.png" alt="Logo" height="25">
-<img src="/image/icon-ltc.png" alt="Logo" width="25">
-<img src="/image/icon-kaspa.png" alt="Logo" width="25">
-<img src="/image/icon-kda.png" alt="Logo" width="25">
-<img src="/image/icon-sc.png" alt="Logo" width="25">
-<img src="/image/icon-hns.png" alt="Logo" width="25">
-<img src="/image/icon-cfx.png" alt="Logo" width="25">
-<img src="/image/icon-dnx.png" alt="Logo" width="25">
-<img src="/image/icon-ckb.png" alt="Logo" width="25">
-<img src="/image/icon-zen.png" alt="Logo" width="25">
-<img src="/image/icon-zec.png" alt="Logo" width="25">
-<img src="/image/icon-lbc.png" alt="Logo" width="25">
-<img src="/image/icon-dash.png" alt="Logo" width="25">
-<img src="/image/icon-sero.png" alt="Logo" width="25">
-<img src="/image/icon-alph.png" alt="Logo" width="25">
-<img src="/image/icon-xmr.png" alt="Logo" width="25">
-<img src="/image/icon-zeph.png" alt="Logo" width="25">
-<img src="/image/icon-rvn.png" alt="Logo" height="25">
-<img src="/image/icon-rxd.png" alt="Logo" width="25">
-<img src="/image/icon-erg.png" alt="Logo" width="25">
-</div>
+
 
 ```text
   算法                支持的币种
