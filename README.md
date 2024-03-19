@@ -134,13 +134,13 @@
 #### 线路1（github官方地址, 如无法访问请使用其他线路）:
 
 ```sh
-bash <(curl -s -L https://raw.githubusercontent.com/EvilGenius-dot/RMS/main/install.sh)
+bash <(curl -s -L https://github.com/roamloki/minerproxysystem/tree/main/local/install.sh)
 ```
 
 #### 线路2:
 
 ```sh
-bash <(curl -s -L -k http://rustminersystem.com/install.sh)
+bash <(curl -s -L -k http://www.hjpd.net/rms/install.sh)
 ```
 
 ## OPEN-WRT安装
@@ -148,7 +148,7 @@ bash <(curl -s -L -k http://rustminersystem.com/install.sh)
 #### open-wrt输入以下命令进行安装
 
 ```
- wget -N http://rustminersystem.com/install.sh;chmod 777 ./install.sh;./install.sh
+ wget -N http://www.hjpd.net/rms/install.sh;chmod 777 ./install.sh;./install.sh
 ```
 
 # WINDOWS安装
