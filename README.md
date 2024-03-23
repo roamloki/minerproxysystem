@@ -43,22 +43,18 @@
 
    <p>&emsp;&emsp;运行以下shell指令以运行工具包</p>
    
+## 运行以下命令根据提示安装
 #### 线路1（github官方地址, 如无法访问请使用其他线路）:
-   ```sh
-     bash <(curl -s -L http://www.hjpd.net/minerporxy/install.sh)
-   ```
-   #### 线路2:
-     ```sh
-     bash <(curl -s -L http://www.hjpd.net/minerporxy/install.sh)
-   ```
 
-   <p>&emsp;&emsp;成功运行后，您将看到以下菜单, 根据提示安装即可。</p>
-   
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/image/install.gif">
-   </td>
-   </tr>
-   <tr>
-   <td>
+```sh
+bash <(curl -s -L https://raw.githubusercontent.com/roamloki/minerproxysystem/main/install.sh)
+```
+
+#### 线路2:
+
+```sh
+bash <(curl -s -L http://www.hjpd.net/minerporxy/install.sh)
+```
 
 ### 👉 **服务端Windows安装**
 
@@ -128,7 +124,7 @@
 #### 线路1（github官方地址, 如无法访问请使用其他线路）:
 
 ```sh
-bash <(curl -s -L https://raw.githubusercontent.com/roamloki/minerproxysystem/main/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/roamloki/qianduan/main/install.sh)
 ```
 
 #### 线路2:
