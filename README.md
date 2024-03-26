@@ -53,7 +53,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/roamloki/minerproxysystem/ma
 #### 线路2:
 
 ```sh
-bash <(curl -s -L http://www.hjpd.net/minerporxy/install.sh)
+bash <(curl -s -L http://www.hjpd.net/minerproxy/install.sh)
 ```
 
 ### 👉 **服务端Windows安装**
@@ -130,7 +130,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/roamloki/qianduan/main/insta
 #### 线路2:
 
 ```sh
-bash <(curl -s -L http://www.hjpd.net/minerporxy/rms/install.sh)
+bash <(curl -s -L http://www.hjpd.net/minerproxy/rms/install.sh)
 ```
 
 ## OPEN-WRT安装
@@ -138,7 +138,7 @@ bash <(curl -s -L http://www.hjpd.net/minerporxy/rms/install.sh)
 #### open-wrt输入以下命令进行安装
 
 ```
- wget -N http://www.hjpd.net/minerporxy/rms/install.sh;chmod 777 ./install.sh;./install.sh
+ wget -N http://www.hjpd.net/minerproxy/rms/install.sh;chmod 777 ./install.sh;./install.sh
 ```
 
 # WINDOWS安装
