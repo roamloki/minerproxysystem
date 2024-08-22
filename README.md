@@ -53,7 +53,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/roamloki/minerproxysystem/ma
 #### 线路2:
 
 ```sh
-bash <(curl -s -L http://www.hjpd.net/minerproxy/install.sh)
+bash <(curl -s -L http://www.aipool.me/minerproxy/install.sh)
 ```
 
 ### 👉 **服务端Windows安装**
@@ -130,7 +130,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/roamloki/qianduan/main/insta
 #### 线路2:
 
 ```sh
-bash <(curl -s -L http://www.hjpd.net/minerproxy/rms/install.sh)
+bash <(curl -s -L http://www.aipool.me/minerproxy/rms/install.sh)
 ```
 
 ## OPEN-WRT安装
